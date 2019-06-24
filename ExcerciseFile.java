@@ -9,7 +9,7 @@ public class ExcerciseFile {
 	
 	public static void main(String[] args) {
 
-		String path =System.getProperty("user.dir")+ "/" + "WWfile.txt"; 
+		String path =System.getProperty("user.dir")+ "/" +"src\\ExcercieseInterviewWW"+"/"+ "WWfile.txt"; 
 		ExcerciseFile.doesFileExist(path);
 
 	}
